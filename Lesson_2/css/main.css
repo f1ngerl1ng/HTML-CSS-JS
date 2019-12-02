@@ -1,0 +1,27 @@
+
+.color_1 {
+  background-color: blue;
+  height: 150px;
+}
+.color_2 {
+  background-color: blue;
+  height: 150px;
+}
+.color_3 {
+  background-color: chocolate;
+  height: 150px;
+}
+.color_4 {
+  background-color: darkgreen;
+  height: 150px;
+}
+.color_5 {
+  background-color: darkmagenta;
+  height: 150px;
+}
+
+@media(max-width: 1280px){
+    .test{
+        background: red;
+    }
+}

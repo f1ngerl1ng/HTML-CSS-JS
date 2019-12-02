@@ -1,0 +1,41 @@
+header {
+    span {
+        @include font(20px, $font-robotoregular, #caddea);
+        font-weight: 100;
+    }
+
+    span a {
+        @include font(20px, $font-robotoregular, #caddea);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+
+
+
+}
+
+
+.before-header {
+    height: 56px;
+    background-color: $--bg-color-primary-1;
+    background-image: url("../img/Bg1-1.svg");
+    background-size: 190%;
+    background-position-y: -190px;
+}
+
+.container {
+    max-width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}

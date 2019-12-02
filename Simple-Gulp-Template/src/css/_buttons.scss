@@ -1,0 +1,16 @@
+.btn-order {
+
+    @include font (26px, $font-robotoregular, #ffff);
+    text-transform: uppercase;
+    background-color: $--bg-color-btn-1;
+    border: 0px;
+    width: 285px;
+    height: 55px;
+
+    &:hover {
+
+        background-color: $--bg-color-btn-2;
+        cursor: pointer;
+
+    }
+}
