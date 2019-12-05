@@ -30,12 +30,12 @@ $font-condensedregular: roboto_condensedregular;
 
 @font-face {
     font-family: 'robotoregular';
-    src: url('roboto-regular-webfont.eot');
-    src: url('roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
-        url('roboto-regular-webfont.woff2') format('woff2'),
-        url('roboto-regular-webfont.woff') format('woff'),
-        url('roboto-regular-webfont.ttf') format('truetype'),
-        url('roboto-regular-webfont.svg#robotoregular') format('svg');
+    src: url('../font/Regular/roboto-regular-webfont.eot');
+    src: url('../font/Regular/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/Regular/roboto-regular-webfont.woff2') format('woff2'),
+        url('../font/Regular/roboto-regular-webfont.woff') format('woff'),
+        url('../font/Regular/roboto-regular-webfont.ttf') format('truetype'),
+        url('../font/Regular/roboto-regular-webfont.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -60,12 +60,12 @@ $font-robotobold: robotobold;
 
 @font-face {
     font-family: 'robotothin';
-    src: url('roboto-thin-webfont.eot');
-    src: url('roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
-        url('roboto-thin-webfont.woff2') format('woff2'),
-        url('roboto-thin-webfont.woff') format('woff'),
-        url('roboto-thin-webfont.ttf') format('truetype'),
-        url('roboto-thin-webfont.svg#robotothin') format('svg');
+    src: url('../font/Thin/roboto-thin-webfont.eot');
+    src: url('../font/Thin/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/Thin/roboto-thin-webfont.woff2') format('woff2'),
+        url('../font/Thin/roboto-thin-webfont.woff') format('woff'),
+        url('../font/Thin/roboto-thin-webfont.ttf') format('truetype'),
+        url('../font/Thin/roboto-thin-webfont.svg#robotothin') format('svg');
     font-weight: normal;
     font-style: normal;
 

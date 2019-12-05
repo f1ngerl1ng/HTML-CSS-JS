@@ -1,16 +1,26 @@
-.btn-order {
+.btn-header_login {
 
-    @include font (26px, $font-robotoregular, #ffff);
+    @include font(22px, $font-robotothin, $--font-color-primary-2, 400);
+    line-height: 24px;
     text-transform: uppercase;
-    background-color: $--bg-color-btn-1;
-    border: 0px;
-    width: 285px;
-    height: 55px;
+    letter-spacing: 1.1px;
+    width: 65px;
+    height: 16px;
+    text-decoration: none;
+    background: url(../img/Login.svg) no-repeat 100%;
+    width: 115px;
+    height: auto;
+    display: inline-block;
+}
 
-    &:hover {
-
-        background-color: $--bg-color-btn-2;
-        cursor: pointer;
-
-    }
+.btn-header_chat {
+    width: 65px;
+    height: 16px;
+    @include font(22px, $font-robotothin, $--font-color-primary-2, 400);
+    text-transform: uppercase;
+    text-decoration: none;
+    background: url(../img/Chat.svg) no-repeat 100%;
+    width: 170px;
+    height: auto;
+    display: inline-block;
 }
