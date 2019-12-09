@@ -1,3 +1,17 @@
 h1 {
-    @include font(32px, $font-robotobold, #1b7fd0, 100);
+    @include font(32px, $font-robotobold, #1b7fd0, 700);
 }
+
+h2 {
+    @include font(28px, $font-robotobold, #1b7fd0, 700);
+}
+
+h3 {
+    @include font(22px, $font-robotomedium, #1b7fd0, 700);
+}
+
+h4 {
+    @include font(18px, $font-robotomedium, #1b7fd0, 700);
+}
+
+.btn-rect {}
