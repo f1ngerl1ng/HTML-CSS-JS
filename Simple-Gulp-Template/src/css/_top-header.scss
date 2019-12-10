@@ -89,9 +89,8 @@
   .after--header__bg {
     background-image: url(../img/Layer-9.png);
     background-size: cover;
-    position: absolute;
-    background-position: center center;
-
+    background-position: 50%;
+    height: 588;
 
     box-shadow: inset 2px 4px 7px #95aeb6;
   }
@@ -163,9 +162,7 @@
   li::marker {
     color:
       #1b7fd0;
-
   }
-
 
   .bg_header-links {
     background-color: #075da2;
@@ -174,13 +171,12 @@
     width: 100%;
   }
 
-  .header-links>a {
+  .header-links a {
     text-align: center;
     display: inline-block;
     width: 44%;
     margin: 10px;
-    color:
-      #1b7fd0;
+    color: #1b7fd0;
     font-family: Roboto;
     font-size: 18px;
     font-weight: 400;
@@ -191,34 +187,12 @@
     position: relative;
     transition: 1.5s;
     transform: scale(1);
-  }
 
-  .header-links a::after {
-
-    background:
-
-      #1b7fd0;
-
-    content: "";
-
-    height: 155px;
-
-    left: -75px;
-
-    opacity: .2;
-
-    position: absolute;
-
-    top: -50px;
-
-    -webkit-transform: rotate(35deg);
-
-    transform: rotate(35deg);
-
-    -webkit-transition: all 1.5s cubic-bezier(.19, 1, .22, 1);
-
-    transition: all 1.5s cubic-bezier(.19, 1, .22, 1);
-
-    width: 50px;
+    &:hover {
+      text-decoration: none;
+      transform: scale(1.1);
+      transition: 1.5s;
+    }
   }
 }
+

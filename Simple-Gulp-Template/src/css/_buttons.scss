@@ -24,3 +24,21 @@
     height: auto;
     display: inline-block;
 }
+
+.home-btn {
+@include font(26px, $font-robotothin, $--font-color-primary-2, 400);
+line-height: 34px;
+text-transform: uppercase;
+margin: 0 auto;
+    margin-bottom: 0px;
+display: block;
+box-shadow: 2px 4px 7px rgba(155,182,190,.55);
+text-align: center;
+padding: 15px 0;
+position: relative;
+margin-bottom: 30px;
+width: 310px;
+background-color: $--bg-color-btn-1;
+
+
+}

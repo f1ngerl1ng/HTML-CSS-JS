@@ -1,5 +1,185 @@
 body {
-    background-color: #f4f6fa;
-    box-sizing: inherit;
+  background-color: #f4f6fa;
+  box-sizing: inherit;
+  margin: 0;
+}
+
+.home-page-calc {
+  .index-page {
+    padding: 30px 0;
+    background-image: url(../img/Bg2.svg);
+    background-color: $--bg-color-btn-3;
+    background-repeat: no-repeat;
+    background-position: 50% 46%;
+    background-size: 111%;
+  }
+  .calc-block h4 {
+    @include font(28px, $font-black, $--font-color-primary-3, 400);
+
+    line-height: 34px;
+    text-transform: uppercase;
     margin: 0;
+    margin-bottom: 0px;
+    box-shadow: 2px 4px 7px rgba(2, 68, 121, 0.75);
+    background-color: #caddea;
+    text-align: left;
+    padding: 7px 15px;
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .calc-block h4::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: 0 0;
+    left: 10px;
+    bottom: -12px;
+    box-shadow: 2px 4px 7px rgba(2, 68, 121, 0.75);
+    width: 3px;
+    height: 17px;
+    transform: rotate(50deg);
+  }
+  .calc-block h4::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 16px 19px 0 0;
+    border-color: #caddea transparent transparent;
+    left: 0;
+  }
+  .calc-block h4 span::before {
+    content: "";
+    background-image: url("../img/Arrow.svg");
+    width: 48px;
+    height: 48px;
+    display: block;
+    position: absolute;
+    left: -100px;
+    top: -7px;
+    background-repeat: no-repeat;
+  }
+  .calc-block h4 span {
+    float: right;
+    position: relative;
+    display: inline-block;
+    font-size: 22px;
+    width: 320px;
+  }
+  .calc-block h4 span b {
+    position: absolute;
+    @include font(34px, $font-black, $--bg-color-btn-1, 700);
+    left: -70px;
+  }
+  .calc-block h4 span i {
+    @include font(28px, $font-black, $--bg-color-btn-1, 400);
+    font-style: normal;
+  }
+
+  .form-row > .col,
+  .form-row > [class*="col-"] {
+    padding-right: 31px;
+    padding-left: 31px;
+  }
+  .form-row label {
+    @include font(22px, $font-black, $--font-color-primary-2, 400);
+    line-height: 24.9px;
+
+    text-transform: uppercase;
+  }
+  .home-btn {
+    &:hover {
+      background: #9a0101;
+
+      text-decoration: none;
+      transition: all 0.4s;
+    }
+  }
+  .home-btn a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: 0 0;
+    left: 10px;
+    bottom: -12px;
+    box-shadow: 4px 4px 7px #9bb6be;
+    width: 3px;
+    height: 17px;
+    transform: rotate(50deg);
+  }
+  .home-btn a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 16px 19px 0 0;
+    border-color: #d00 transparent transparent;
+  }
+  .index-page-content {
+    padding: 35px 0;
+    background: url(../img/Bg1-1.svg);
+    background-repeat: no-repeat;
+    background-position: 50% -140px;
+    background-size: 102%;
+  }
+  .index-page-content h2 {
+    color: 
+#1b7fd0;
+font-family: Roboto;
+font-size: 28px;
+font-weight: 700;
+line-height: 34px;
+text-transform: uppercase;
+margin: 0;
+    margin-bottom: 0px;
+box-shadow: 2px 4px 7px
+rgba(155,182,190,.55);
+background-color:
+    #caddea;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    margin-bottom: 30px;
+}
+.index-page-content h2::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: 0 0;
+    left: 10px;
+    bottom: -12px;
+    box-shadow: 4px 4px 7px 
+    #9bb6be;
+    width: 3px;
+    height: 17px;
+    transform: rotate(50deg);
+}
+.index-page-content h2::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 16px 19px 0 0;
+    border-color: 
+#caddea transparent
+    transparent;
+}
+.index-page-content p {
+    color: 
+    #000;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
 }
