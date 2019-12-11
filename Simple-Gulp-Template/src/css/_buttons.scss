@@ -11,6 +11,12 @@
     width: 115px;
     height: auto;
     display: inline-block;
+
+    &:hover{
+        text-decoration: none;
+        background: url(../img/Login2.svg) no-repeat 100%;
+    }
+
 }
 
 .btn-header_chat {
@@ -23,6 +29,11 @@
     width: 170px;
     height: auto;
     display: inline-block;
+
+    &:hover{
+        text-decoration: none;
+        background: url(../img/Chat2.svg) no-repeat 100%;
+    }
 }
 
 .home-btn {
